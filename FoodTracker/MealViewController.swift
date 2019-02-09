@@ -8,11 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
+class MealViewController: UIViewController,UITextFieldDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
 
     //Mark:Properties
     @IBOutlet weak var naemTextField: UITextField!
-    @IBOutlet weak var mealnameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var ratingControl: RatingControl!
     
@@ -35,7 +34,6 @@ class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControll
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         
-        mealnameLabel.text = textField.text
     }
     
     
