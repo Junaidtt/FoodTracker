@@ -14,6 +14,7 @@ class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControll
     @IBOutlet weak var naemTextField: UITextField!
     @IBOutlet weak var mealnameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var ratingControl: RatingControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,13 +24,6 @@ class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControll
         naemTextField.delegate = self
         
         print("viewDidLoad")
-    }
-    
-    //MARK: Actions
-    @IBAction func setDefaultTextLabel(_ sender: Any) {
-        
-        mealnameLabel.text = "Default Text"
-        
     }
     
     // Mark: Protocols
