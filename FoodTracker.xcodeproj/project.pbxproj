@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A76EF3A1220EC50F00008B7B /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EF3A0220EC50F00008B7B /* Meal.swift */; };
 		A7AD424A220C0EE0001B49EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD4249220C0EE0001B49EE /* AppDelegate.swift */; };
 		A7AD424C220C0EE0001B49EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD424B220C0EE0001B49EE /* ViewController.swift */; };
 		A7AD424F220C0EE0001B49EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AD424D220C0EE0001B49EE /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A76EF3A0220EC50F00008B7B /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		A7AD4246220C0EE0001B49EE /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AD4249220C0EE0001B49EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7AD424B220C0EE0001B49EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				A7AD4249220C0EE0001B49EE /* AppDelegate.swift */,
 				A7AD424B220C0EE0001B49EE /* ViewController.swift */,
 				A7EBAC75220C67AE00D11C82 /* RatingControl.swift */,
+				A76EF3A0220EC50F00008B7B /* Meal.swift */,
 				A7AD424D220C0EE0001B49EE /* Main.storyboard */,
 				A7AD4250220C0EE9001B49EE /* Assets.xcassets */,
 				A7AD4252220C0EE9001B49EE /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76EF3A1220EC50F00008B7B /* Meal.swift in Sources */,
 				A7AD424C220C0EE0001B49EE /* ViewController.swift in Sources */,
 				A7EBAC76220C67AE00D11C82 /* RatingControl.swift in Sources */,
 				A7AD424A220C0EE0001B49EE /* AppDelegate.swift in Sources */,
