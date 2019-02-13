@@ -110,11 +110,11 @@
 				A7EBAC75220C67AE00D11C82 /* RatingControl.swift */,
 				A76EF3A0220EC50F00008B7B /* Meal.swift */,
 				A76EF3A2220ED1C100008B7B /* MealTableViewCell.swift */,
+				A76EF3A4220EDB5F00008B7B /* MealTableViewController.swift */,
 				A7AD424D220C0EE0001B49EE /* Main.storyboard */,
 				A7AD4250220C0EE9001B49EE /* Assets.xcassets */,
 				A7AD4252220C0EE9001B49EE /* LaunchScreen.storyboard */,
 				A7AD4255220C0EE9001B49EE /* Info.plist */,
-				A76EF3A4220EDB5F00008B7B /* MealTableViewController.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
